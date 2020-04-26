@@ -7,11 +7,12 @@
   "author": "Salvador Guzman Jr. <guzmansalv@gmail.com>",
   "license": "MIT",
   "private": false,
+  "start": {
+    "watch:build": "tsc index.ts --pretty --watch"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "epub": "^1.2.0"
-  },
-  "devDependencies": {
+    "epub": "^1.2.0",
     "typescript": "^3.8.3"
   }
 }
