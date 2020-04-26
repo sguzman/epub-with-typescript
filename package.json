@@ -7,7 +7,7 @@
   "author": "Salvador Guzman Jr. <guzmansalv@gmail.com>",
   "license": "MIT",
   "private": false,
-  "start": {
+  "scripts": {
     "watch:build": "tsc index.ts --pretty --watch",
     "run": "node index.js"
   },
