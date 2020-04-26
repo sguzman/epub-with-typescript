@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "start": {
-    "watch:build": "tsc index.ts --pretty --watch"
+    "watch:build": "tsc index.ts --pretty --watch",
+    "run": "node index.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
